@@ -1,0 +1,6 @@
+def hitung_panen(nama_komoditas, hasil_kg):
+    print("=" * 40)
+    print(f" PENCATATAN PANEN: {nama_komoditas.upper()}")
+    print("=" * 40)
+    print(f"• Total Berat Panen : {hasil_kg} kg")
+    return hasil_kg
