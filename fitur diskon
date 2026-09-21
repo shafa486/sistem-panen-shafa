@@ -1,0 +1,9 @@
+def hitung_diskon(harga_total, persentase_diskon):
+    potongan = harga_total * (persentase_diskon / 100)
+    harga_akhir = harga_total - potongan
+    print("-" * 40)
+    print(f"• Harga Awal        : Rp {harga_total:,.0f}")
+    print(f"• Diskon ({persentase_diskon}%)      : Rp {potongan:,.0f}")
+    print(f"• Total Bayar       : Rp {harga_akhir:,.0f}")
+    print("=" * 40)
+    return harga_akhir
